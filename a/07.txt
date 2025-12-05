@@ -1,0 +1,21 @@
+size 320 240
+vertex_shader transform
+fragment_shader blue
+uniform 2 0 0 -1 0 2 0 -1 0 0 -1 0 0 0 0 1 
+vertex_data fff
+v .1 .1 0
+v .4 .1 0
+v .4 .4 0
+v .4 .4 0
+v .1 .1 0
+v .1 .4 0
+render triangle
+vertex_shader color2
+fragment_shader gouraud2
+vertex_data ffffff
+v 1 0 0 0.5 0.25 0.5
+v 0 1 0 0.75 0.25 -0.5
+v 0 0 1 0.75 0.75 -0.5
+render triangle
+# NOTE: This test includes vertex attributes (besides position), and it tests to make sure flat interpolation works.  This test also checks to make sure you can handle more than one color in a scene.
+# GRADING 3 1.00

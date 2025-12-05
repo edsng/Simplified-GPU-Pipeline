@@ -1,0 +1,10 @@
+size 500 500
+vertex_shader reorder
+fragment_shader white
+vertex_data fffff
+v 7 0.25 0.25 0 100
+v 8 0.75 0.25 0 100
+v 9 0.75 0.75 0 100
+render triangle
+# NOTE Implement support for custom image sizes.
+# GRADING 1 1.00

@@ -1,0 +1,14 @@
+size 320 240
+vertex_shader transform
+fragment_shader white
+uniform 0.5 0 0 0 0 0.5 0 0 0 0 -0.2 0 0 0 0 1 
+vertex_data fff
+v -1 -1 -5
+v 1 -1 -2
+v 1 1 -2
+v 1 1 -2
+v -1 -1 -5
+v -1 1 -5
+render triangle
+# NOTE This test case introduces three new elements: simple transforms (non-uniform scale, no perspective), a vertex shader (which performs that transform), and uniforms (makes transformation data available to the vertex shader).  Note that you do not need homogeneous coordinates to complete this test.
+# GRADING 5 1.00

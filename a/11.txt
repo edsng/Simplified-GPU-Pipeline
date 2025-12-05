@@ -1,0 +1,11 @@
+size 320 240
+vertex_shader color2
+fragment_shader gouraud2
+uniform 2 0 0 -1 0 2 0 -1 0 0 -1 0 0 0 0 1 
+vertex_data nnnfff
+v 1 0 0 0.0 0.15 2.5
+v 0 1 0 0.75 0.15 -0.5
+v 0 0 1 0.75 0.85 -3.5
+render triangle
+# NOTE Make sure z-buffering works with interpolated colors.
+# GRADING 1 1.00

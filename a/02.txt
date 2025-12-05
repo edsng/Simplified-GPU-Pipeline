@@ -1,0 +1,13 @@
+size 320 240
+vertex_shader reorder
+fragment_shader white
+vertex_data fffff
+v 7 -.5 -.5 1 7
+v 7 .5 -.5 .4 7
+v 7 .5 .5 .4 7
+v 7 .5 .5 .4 7
+v 7 -.5 -.5 1 7
+v 7 -.5 .5 1 7
+render triangle
+# NOTE Introduce support for more than one triangle.
+# GRADING 3 1.00

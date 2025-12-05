@@ -1,0 +1,10 @@
+size 320 240
+vertex_shader trivial
+fragment_shader white
+vertex_data fff
+v 0.25 0.25 0
+v 0.75 0.25 0
+v 0.75 0.75 0
+render triangle
+# NOTE Get the basics working: basic pipeline structure, triangle rasterization, and pixel placement.  Note that most aspects of this project can be ignored at this stage.  In particular, you can pass this test without: shaders, uniform data, per-vertex data, clipping, colors, homogeneous coordinates, or z-buffering. These features will be introduced one by one in later tests.  The idea is to implement and test features step by step as we progress through the test tests.
+# GRADING 10 1.00

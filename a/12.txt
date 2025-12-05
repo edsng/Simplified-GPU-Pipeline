@@ -1,0 +1,11 @@
+size 320 240
+vertex_shader color
+fragment_shader gouraud
+uniform 1 0 0 0 0 1 0 0 0 0 -1 0 0 0 0 1 
+vertex_data fffnnn
+v -7 -2 7 1 0 0
+v 8 -6 -2 0 1 0
+v 4 5 -9 0 0 1
+render triangle
+# NOTE Implement clipping against the sides of the image.  Note that full perspective-correct clipping is not required to pass this test.
+# GRADING 1 1.00
